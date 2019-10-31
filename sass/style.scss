@@ -1,7 +1,46 @@
-* {
-  margin: 0;
-  padding: 0;
+$color-main: #000;
+$color-light: #fff;
+
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-/*Navigation*/
+body {
+  background: url('https://images.pexels.com/photos/2120016/pexels-photo-2120016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+  background-size: cover;
+  background-position: 0 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  margin: 20px 0;
+}
+
+
+.navbar-brand {
+  color: #ffd700;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  ;
+  font-size: 40px;
+}
+
+.nav-link {
+  color: $color-light;
+  text-transform: uppercase;
+}
+
+.navbar-text .container {
+  text-align: center;
+  margin-top: 100px;
+  color: $color-light;
+}
+
+.btn {
+  background-color: #ffd700;
+  margin: 20px 0;
+  padding: 15px 50px;
+  color: $color-light;
+  text-transform: uppercase;
+}
